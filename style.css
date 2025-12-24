@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(to bottom, #1a1a2e, #16213e);
+  color: #f5f5f5;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  background: #0f3460;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  color: #f5f5f5;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero {
+  background: linear-gradient(to right, #fcb045, #fd1d1d);
+  color: #000;
+}
+
+.subtitle {
+  font-size: 1.2em;
+}
+
+button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 25px;
+  background: #0f3460;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.card {
+  max-width: 500px;
+  margin: auto;
+  text-align: left;
+}
+
+.split {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sun, .moon {
+  flex: 1;
+  padding: 20px;
+}
+
+.sun {
+  background: linear-gradient(to bottom, #ffb347, #ffcc33);
+  color: #000;
+}
+
+.moon {
+  background: linear-gradient(to bottom, #2c3e50, #4ca1af);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 15px;
+}
+
+.box {
+  background: #0f3460;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.chat {
+  max-width: 500px;
+  margin: auto;
+  text-align: left;
+}
+
+.chat span {
+  font-weight: bold;
+  color: #fcb045;
+}
+
+.hidden {
+  display: none;
+}
